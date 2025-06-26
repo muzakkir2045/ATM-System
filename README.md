@@ -95,13 +95,20 @@ The project uses an SQLite database (`atm_system.db`) with the following tables:
   - `amount` (REAL)
   - `timestamp` (DATETIME, DEFAULT CURRENT_TIMESTAMP)
 
-## Contributing
+## 🧠 What I Learned
 
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+While building this ATM System, I gained hands-on experience with:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+- **Python file handling and functions** for organizing program flow
+- **Working with SQLite databases**, including:
+  - Creating and connecting to a database
+  - Writing SQL queries for `CREATE`, `INSERT`, `UPDATE`, `SELECT`, etc.
+  - Using transactions and foreign keys for data consistency
+- **Basic security practices** like 4-digit PIN authentication and limited login attempts
+- **Designing menu-driven CLI applications** with clear navigation
+- **Implementing relational logic** for multi-account and transfer systems
+- **Debugging and error handling** in a real-world logic-heavy program
+
+This project helped me understand how banking systems manage users, accounts, and transactions at a basic level and improved my confidence in structuring larger Python applications.
+
+
